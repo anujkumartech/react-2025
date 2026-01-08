@@ -17,6 +17,12 @@ function App() { // parent
     setValue(newValue);
   }
   
+  // effect or side effect 
+
+  // state
+  // effect
+  // Hooks - allows changes the state as well running effect 
+
   // rendering 
   return (
     <>
