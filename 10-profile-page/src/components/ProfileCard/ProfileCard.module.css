@@ -1,0 +1,45 @@
+.card {
+  background-color: var(--white);
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--primary-blue);
+}
+
+.info h1 {
+  font-size: 1.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.info p {
+  color: var(--medium-gray);
+  font-size: 0.875rem;
+}
+
+.bio {
+  color: var(--medium-gray);
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.socials {
+  display: flex;
+  gap: 0.75rem;
+  justify-content: center;
+}
